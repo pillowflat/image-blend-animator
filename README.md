@@ -38,13 +38,6 @@ This makes it perfect for creating engaging visual transitions for presentations
 
 - Python 3.6 or higher
 
-### Required Libraries
-
-```bash
-pip install pillow numpy
-pip install imageio  # Optional, for fallback saving method
-```
-
 ### Setup
 
 1. Clone this repository or download the script:
@@ -53,7 +46,7 @@ pip install imageio  # Optional, for fallback saving method
    cd image-blend-animator
    ```
 
-2. Make sure you have the required dependencies installed:
+2. Make sure you have the required dependencies installed in a virtual environment:
    ```bash
    python3 -m venv .venv
    source .venv/bin/activate # Note: this command is slightly different for Windows
